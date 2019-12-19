@@ -1,0 +1,1 @@
+# magmi-magento2
