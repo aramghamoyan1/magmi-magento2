@@ -16,4 +16,4 @@ On the fly indexer <br>
 Configurable Item processor <br>
 Image attributes processor <br> <br>
 
-# I will continue to fix MAGMI for Magento 2, if you know a bug let me know.
+I will continue to fix MAGMI for Magento 2, if you know a bug let me know.
