@@ -8,7 +8,7 @@ On top of that custom compatibility fixes were added.
 
 # My fixes for now are
 1. Unirgy Udropship module integretion for the dropdown "udropship_vendor".
-2. Added checks for isset() and !empty() by category and image import
+2. Added checks for isset() and !empty() by category and image import (# becase of this MAGMI wont stop the import)
 
 # Known working plugins:
 On the fly category creator/importer <br>
