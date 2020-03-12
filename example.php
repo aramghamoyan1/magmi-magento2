@@ -33,19 +33,19 @@
             'cost'                              => '12',
             'price'                             => '45',
             'qty'                               => '2',
-            'type'								=> 'simple',
+            'type'				=> 'simple',
             'description'                       => 'test description long',
             'short_description'                 => 'test desc short',
-			'weight'                            => 1,
-			'brand'                             => 'MAGMI',
-			'image'                             => '+image path',
-			'thumbnail'                         => '+image path',
-			'small_image'                       => '+image path',
-			'media_gallery'                     => 'image path1;imagepath2;imagepath3',
-			'store_id'                          => 1, // true
-			'manage_stock'                      => 1, // true
-			'tax_class_id'                      => 10,
-			'is_in_stock'                       => 1, // 0 = false - 1 = true'
+	    'weight'                            => 1,
+	    'brand'                             => 'MAGMI',
+	    'image'                             => '+image path',
+	    'thumbnail'                         => '+image path',
+	    'small_image'                       => '+image path',
+	    'media_gallery'                     => 'image path1;imagepath2;imagepath3',
+	    'store_id'                          => 1, // true
+	    'manage_stock'                      => 1, // true
+	    'tax_class_id'                      => 10,
+	    'is_in_stock'                       => 1, // 0 = false - 1 = true'
         );
 
         $dp->ingest($item); 
