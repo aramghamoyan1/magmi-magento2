@@ -514,10 +514,10 @@ abstract class Magmi_Engine extends DbHelper
                 $pass = $default_setup->password;
                 $port = $default_setup->port;
             } else {
-                $host = $this->getProp("DATABASE", "host", "mysqlmaster.wohimagento2.hypernode.io");
-                $dbname = $this->getProp("DATABASE", "dbname", "wohilive");
-                $user = $this->getProp("DATABASE", "user", "app");
-                $pass = $this->getProp("DATABASE", "pass", "btYMeO8IajewEnNn7rAzbYNuqvqcHjP7");
+                $host = $this->getProp("DATABASE", "host", "localhost");
+                $dbname = $this->getProp("DATABASE", "dbname", "DB NAME");
+                $user = $this->getProp("DATABASE", "user", "USERNAME");
+                $pass = $this->getProp("DATABASE", "pass", "PASSWORD");
                 $port = $this->getProp("DATABASE", "port", "3306");
             }
             $this->initDb($host, $dbname, $user, $pass, $port, $socket, $conn, $debug);
