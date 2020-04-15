@@ -27,7 +27,7 @@
         // Available modes: "create" creates and updates items, "update" updates only, "xcreate creates only.
         $dp->beginImportSession("Default","create");
 
-        $Import = array( 
+        $item = array( 
             'name'                              => 'test 1',
             'sku'                               => '123yhf',
             'cost'                              => '12',
